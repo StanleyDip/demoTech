@@ -1,0 +1,20 @@
+This is just taking my javascript skills to made a website. In this site I have used JavaScript and CSS framework i.e Bootstrap.
+since I have focus mainly on javascript part hence I have use the framework of CSS. I have used the layout idea from diffrent 
+computer store that we have in our country, for example ryans, startech, techland. I have downloads the items directly from the 
+official product website but not from the above mentioned sites. If you have any suggestions you can reach me out at stanleydr77@gmail.com
+Thanks and stay safe. 
+Things I have added using JavaScript:
+J1. mouseout and mouseover over the dropdown menu (index page)
+J2. Image slider (index page)
+J3. Adding items using loops and innerHTML (index page)
+J4. Adding a blinking effect on the text "winter sale is here!"
+
+ **February month update**
+ F0. The previous J3 feature has been removed due to the introduction of new product list on which Add to Cart feature will be applied.
+ F1. Blinking Cart Text has been added.
+ F2. New Notification bell icon has been animated with the help of javascript and then with the help of JQuery I have added a dropdown menu to show notification.( I am learning JQuery a little bit hence I am applying to this project)
+ F3. New Cart feature will be adding soon..
+ --->F3.1. Add to Cart Option.
+ --->F3.2. Items of Available Products will be Adding Soon
+ --->F3.3. Items willbe saved on locally so that we can see the "Add to Cart" effect After the page is loaded
+ 

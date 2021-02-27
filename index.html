@@ -1,0 +1,145 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Demo Tech</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="demotech.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h3 class="display-5">Welcome to <span id="democolor">Demo</span><span id="red">Tech</span ><img src="star.svg"></h3>
+      
+      <p class="display-6">This is just a practice version of JavaScript mainly alongside with Bootstrap <img id="BellMe"> </p>
+       <div id="notificationPanel">
+        <p id="p-notificationPanel" >**February month update**</p>
+        <p id="p-notificationPanel">F0. The previous J3 feature has been removed due to the introduction of new product list on which Add to Cart feature will be applied.</p>
+        <p id="p-notificationPanel" >F1. Blinking Cart Text has been added.</p>
+        <p id="p-notificationPanel"> F2. New Notification bell icon has been animated with the help of javascript and then with the help of JQuery I have added a dropdown menu to show notification.( I am learning JQuery a little bit hence I am applying to this project)</p>
+        <p id="p-notificationPanel">F3.New Cart feature will be adding soon..</p>
+        <p id="p-notificationPanel">--->F3.1. Add to Cart Option.</p>
+        <p id="p-notificationPanel">--->F3.2. Items of Available Products will be Adding Soon</p>
+        <p id="p-notificationPanel">--->F3.3. Items willbe saved on locally so that we can see the "Add to Cart" effect After the page is loaded</p>
+        <p id="p-notificationPanel">Read the readme file for more!</p>
+       </div>
+      
+    </div>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="#"><span id="democolor">Demo</span><span id="red">Tech</span><img src="star.svg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            View Categories
+          </a>
+          
+          <div class="dropdown-menu" id="removediv" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" id="desktop" href="#">Desktop</a>
+          <!--  <div class="dropdown-divider"></div> -->
+            <div class="hide-desktop">
+                <a class="dropdown-item" class="hide-desktop" id="desktop" href="#"> Budget PC</a>
+                <a class="dropdown-item" class="hide-desktop" id="desktop" href="#"> Brand PC</a>
+                <a class="dropdown-item" class="hide-desktop" id="desktop" href="#"> All in One</a>
+                <a class="dropdown-item" class="hide-desktop" id="desktop"href="#"> MAC</a>
+                
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="laptop" href="#">Laptop</a>
+            <div class="hide-laptop">
+                <a class="dropdown-item " class="hide-laptop" href="#">All Laptop</a>
+                <a class="dropdown-item " class="hide-laptop" id="laptop" href="#">Gaming Laptop</a>
+                <a class="dropdown-item " class="hide-laptop" id="laptop" href="#">Premium Ultrabook</a>
+                <a class="dropdown-item " class="hide-laptop" id="laptop" href="#">Laptop Accessories</a>
+                <a class="dropdown-item " class="hide-laptop" id="laptop"href="#">External Graphics</a>
+            </div>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="component" href="#">Component</a>
+              <div class="hide-component">
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">Casing</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">Casing Cooler</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">Power Supply</a>
+                  <a class="dropdown-item " class="hide-component" id="component"href="#">Processor</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">CPU Cooler</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">Motherboard</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">Graphics Card</a>
+                  <a class="dropdown-item " class="hide-component" id="component"href="#">Hard Disk Drive</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">SSD</a>
+                  <a class="dropdown-item" class="hide-component" id="component" href="#">RAM(Desktop)</a>
+                  <a class="dropdown-item " class="hide-component" id="component" href="#">RAM(Laptop)</a>
+                  <a class="dropdown-item " class="hide-component" id="component"href="#">Portable SSD</a>
+              </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="monitor" href="#">Monitor</a>
+            <div class="hide-monitor">
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">Benq</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">Asus</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">Acer</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor"href="#">Dell</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">GigaByte</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">HP</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">Walton</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor"href="#">Samsung</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">LG</a>
+                  <a class="dropdown-item" class="hide-monitor" id="monitor" href="#">Xiaomi</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor" href="#">Curved Monitor</a>
+                  <a class="dropdown-item " class="hide-monitor" id="monitor"href="#">Gaming Monitor</a>
+              </div>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+      </ul>
+      <div id="blink"></div>
+    </div>
+    <div class="cart" style=" margin-right: 20px;"><a id="blinkCart" href="cart.html"><img src="shopping-cart.png" style="width: 40px; height: 30px;"/> Cart:-<span> 0</span></a></div>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+
+
+   <img name="slide" width=100% height=500px margin-bottom=100px> 
+  <!-- <div id="imgload"></div>  -->
+  <div class="div-product-container">
+    <div class="div-product-image">
+      <img class="product-image"src="products/b500n.jpg" alt="A4 Tech Rgb keyboard">
+      <h3 class="product-h3">A4 Tech Bloody B500N</h3>
+      <h3 class="product-h3">Price: 2400/-</h3>
+      <a href="" class="addToCart">Add to Cart</a>
+    </div>
+
+  <div class="div-product-image">
+    <img class="product-image"src="products/m4.jpg" alt="A4 Tech Rgb keyboard">
+    <h3 class="product-h3">Tplink Deco M4(Single Pack)</h3>
+    <h3 class="product-h3">Price: 4500/-</h3>
+    <a href="" class="addToCart">Add to Cart</a>
+    </div>
+  <div class="div-product-image">
+      <img class="product-image"src="products/hp22f.jpg" alt="Hp Monitor">
+      <h3 class="product-h3">Hp Monitor Hp22f 21.5inc</h3>
+      <h3 class="product-h3">Price: 21000/-</h3>
+      <a href="" class="addToCart">Add to Cart</a>
+  </div>
+  </div>
+
+  </body>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="demotech.js"></script>
+
+  </html>

@@ -23,8 +23,9 @@
         <p id="p-notificationPanel">--->F3.3. Items willbe saved on locally so that we can see the "Add to Cart" effect After the page is loaded</p>
         <p id="p-notificationPanel">Read the readme file for more!</p>
        </div>
-      
+       
     </div>
+    
   <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark navbar-fixed-top">
     <a class="navbar-brand" href="#"><span id="democolor">Demo</span><span id="red">Tech</span><img src="star.svg"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +50,7 @@
           <div class="dropdown-menu" id="removediv" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" id="desktop" href="#">Desktop</a>
           <!--  <div class="dropdown-divider"></div> -->
+          
             <div class="hide-desktop">
                 <a class="dropdown-item" class="hide-desktop" id="desktop" href="#"> Budget PC</a>
                 <a class="dropdown-item" class="hide-desktop" id="desktop" href="#"> Brand PC</a>
@@ -103,13 +105,22 @@
       </ul>
       <div id="blink"></div>
     </div>
-    <div class="cart" style=" margin-right: 20px;"><a id="blinkCart" href="cart.html"><img src="shopping-cart.png" style="width: 40px; height: 30px;"/> Cart:-<span> 0</span></a></div>
+    <div class="cart" style=" margin-right: 20px;"><a id="blinkCart"><img src="shopping-cart.png" style="width: 30px; height: 30px;"/> Cart <span id="cartSpan"> 0</span></a></div>
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
     </form>
   </nav>
-
+  <div class="addd">
+    <fieldset class="products-container">
+      <span class="fixed-product-title">PRODUCT</span>
+      <span class="fixed-price">PRICE</span>
+      <span class="fixed-quantity">QUANTITY</span>
+      <span class="fixed-total">TOTAL</span>
+    </fieldset>
+    <fieldset id="products"> 
+    </fieldset>
+  </div>
 
    <img name="slide" width=100% height=500px margin-bottom=100px> 
   <!-- <div id="imgload"></div>  -->
@@ -118,28 +129,28 @@
       <img class="product-image"src="products/b500n.jpg" alt="A4 Tech Rgb keyboard">
       <h3 class="product-h3">A4 Tech Bloody B500N</h3>
       <h3 class="product-h3">Price: 2400/-</h3>
-      <a href="" class="addToCart">Add to Cart</a>
+      <a  class="addToCart">Add to Cart</a>
     </div>
 
   <div class="div-product-image">
     <img class="product-image"src="products/m4.jpg" alt="A4 Tech Rgb keyboard">
     <h3 class="product-h3">Tplink Deco M4(Single Pack)</h3>
     <h3 class="product-h3">Price: 4500/-</h3>
-    <a href="" class="addToCart">Add to Cart</a>
+    <a  class="addToCart">Add to Cart</a>
     </div>
   <div class="div-product-image">
       <img class="product-image"src="products/hp22f.jpg" alt="Hp Monitor">
-      <h3 class="product-h3">Hp Monitor Hp22f 21.5inc</h3>
+      <h3 class="product-h3">Hp Monitor Hp22f</h3>
       <h3 class="product-h3">Price: 21000/-</h3>
-      <a href="" class="addToCart">Add to Cart</a>
+      <a  class="addToCart">Add to Cart</a>
   </div>
   </div>
 
   </body>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="demotech.js"></script>
-
   </html>

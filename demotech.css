@@ -58,6 +58,7 @@ color:#fcdb03;
 	font-weight: bolder;
 	text-transform: uppercase;
 	font-family: 'Acme', sans-serif;
+	cursor: pointer;
 }
 
 .div-product-container{
@@ -121,3 +122,53 @@ color:#fcdb03;
 #BellMe{
 	cursor: pointer;
 }
+
+/* Add to Cart Stylings*/
+.addd{
+	position: absolute;
+	top: 30px;
+	z-index: 3;
+    background: white;
+	right: 22px;
+	display: none;
+	margin-top: 110px;
+}
+.products-container,.products{
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-weight: bold;
+	margin-bottom: 3px;
+	height: auto;
+	
+}
+fieldset{
+	border: 2px solid gray;
+}
+.products-image{
+	width: 90px;
+}
+ /* .product-title,.price, .quantity,.total{
+	 
+}  */
+.total{
+	position: relative;
+	right: 0px;
+}
+.totalAmount{
+	margin-left:  340px;
+}
+
+
+/* .fixed-product-title,.fixed-price, .fixed-quantity, .fixed-total{
+	font-style: italic;
+	} */
+	#ion{
+		font-size: 25px;
+		color: blueviolet;
+		margin-top: auto;
+		margin-bottom: auto;
+		cursor: pointer;
+		padding-right: 10px;
+		}

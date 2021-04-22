@@ -211,6 +211,7 @@
 			callCartsFunction(products[i]); /* when the add to cart button is clicked*/
 			totalCost(products[i]);
 			displayCart();
+			alert(products[i].name +"has been add to your Cart!");
 		});
 	}
 
